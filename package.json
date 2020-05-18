@@ -4,7 +4,10 @@
   "description": "Frontend Mentor challenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-scss": "node-sass src/scss/main.scss dist/main.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch-scss"
   },
   "repository": {
     "type": "git",
