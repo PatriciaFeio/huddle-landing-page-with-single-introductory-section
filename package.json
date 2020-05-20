@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch-scss": "node-sass src/scss/main.scss dist/main.css -w",
+    "watch-scss": "sass --watch src/scss/main.scss dist/main.css",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch-scss"
   },
