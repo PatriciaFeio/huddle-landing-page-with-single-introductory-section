@@ -1,0 +1,17 @@
+@use '../helpers/variables'as *;
+@use '../fontawesome-scss/fontawesome.scss'as *;
+@use '../fontawesome-scss/regular.scss'as *;
+@use '../fontawesome-scss/brands.scss'as *;
+
+.app-footer {
+  background-color: $primary-color;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: $light-color;
+}

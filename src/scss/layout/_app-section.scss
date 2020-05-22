@@ -1,0 +1,39 @@
+@use '../helpers/variables'as *;
+@use '../components/buttons'as *;
+
+.app-section {
+  display: flex;
+  flex-direction: column;
+
+  &__content {
+    padding-left: $small;
+    padding-right: $small;
+    padding-bottom: $xLarge;
+  }
+
+  &__content-img {
+    padding-bottom: $xxSmall;
+  }
+
+  &__content-info {
+    background-color: $primary-color;
+    height: 100%;
+    padding-top: $xSmall;
+    text-align: $align-center;
+  }
+
+  &__content-heading {
+    padding-bottom: $xxxxSmall;
+  }
+
+  &__content-paragraph {
+    line-height: 1.6;
+    padding-bottom: $mobile-icon;
+  }
+
+  &__image {
+    width: 100%;
+    /* width: 300px;
+  height: 210px; */
+  }
+}

@@ -1,0 +1,14 @@
+@use '../helpers/variables'as *;
+
+.app-header {
+  padding: $xSmall $small 0 $xSmall;
+
+  &__content {
+    width: 124px;
+    height: 24px;
+  }
+
+  &__logo {
+    width: 100%;
+  }
+}
