@@ -1,1 +1,3 @@
-@import "layout/header"
+@use '../scss/fontawesome-scss/fontawesome.scss'as *;
+@use 'base/reset'as *;
+@use 'pages/home';

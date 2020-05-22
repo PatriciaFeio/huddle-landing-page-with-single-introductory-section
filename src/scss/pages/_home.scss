@@ -1,0 +1,16 @@
+@use '../helpers/variables'as *;
+@use '../base/typography'as *;
+@use '../layout/app-header';
+@use '../layout/app-section';
+@use '../layout/app-footer';
+
+body {
+  background: url(/src/images/bg-mobile.svg);
+  background-color: $primary-color;
+  background-size: 375px 373px;
+  background-position: top;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
