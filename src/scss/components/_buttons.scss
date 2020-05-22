@@ -1,0 +1,10 @@
+@use '../helpers/variables'as *;
+
+.button-cta {
+  background-color: white;
+  border: none;
+  font-size: 13px;
+  color: $primary-color;
+  padding: 13px 78px;
+  border-radius: 50px;
+}
