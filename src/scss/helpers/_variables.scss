@@ -1,3 +1,6 @@
+@use '../fontawesome-scss/variables'as *;
+
+
 //color
 $primary-color: hsl(257, 40%, 49%);
 $footer-color: hsl(228, 45%, 44%);
@@ -22,4 +25,15 @@ $medium: 45px;
 $large: 60px;
 $xLarge: 65px;
 $xxLarge: 80px;
-$xxxLarge: 100px
+$xxxLarge: 100px;
+
+//fontawesome icons
+$facebook-icon: '\f39e';
+$twitter-icon: '\f099';
+$instagram-icon: '\f16d';
+$icon-border: 1px solid white;
+
+//breakpoints
+$breakpoints: ('phone': 640px,
+  'tablet': 768px,
+  'desktop': 1440px) !default;
