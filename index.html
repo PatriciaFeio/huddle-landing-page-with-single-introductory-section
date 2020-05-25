@@ -9,36 +9,58 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="src/images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="dist/main.css" />
 
     <title>
       Frontend Mentor | Huddle landing page with single introductory section
     </title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    Build The Community Your Fans Will Love Huddle re-imagines the way we build
-    communities. You have a voice, but so does your audience. Create connections
-    with your users as you engage in genuine discussion. Register
-
-    <footer>
-      <p class="attribution">
+    <header class="app-header">
+      <div class="app-header__content">
+        <object
+          data="src/images/logo.svg"
+          type="image/svg+xml"
+          class="app-header__logo"
+        ></object>
+      </div>
+    </header>
+    <section class="app-section">
+      <div class="app-section__content app-section__content-img">
+        <img
+          src="src/images/illustration-mockups.svg"
+          alt="image"
+          class="app-section__image"
+        />
+      </div>
+      <div class="app-section__content app-section__content-info">
+        <h1 class="app-section__content-heading">
+          Build The Community Your Fans Will Love
+        </h1>
+        <p class="app-section__content-paragraph">
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+        <button class="app-section__button button-cta">Register</button>
+      </div>
+    </section>
+    <footer class="app-footer">
+      <div class="app-footer__social-icons">
+        <a href="#" class="icon__facebook"></a>
+        <a href="#" class="icon__twitter"></a>
+        <a href="#" class="icon__instagram"></a>
+      </div>
+      <p class="app-footer__attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by
+        <a href="https://github.com/PatriciaFeio" targe="_blank"
+          >Patricia Feio</a
+        >.
       </p>
     </footer>
   </body>
