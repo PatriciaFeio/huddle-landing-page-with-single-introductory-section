@@ -1,0 +1,33 @@
+@use '../helpers/variables'as *;
+@use '../helpers/mixins'as *;
+
+.icon {
+  &__facebook {
+    padding-right: $xxxxSmall;
+
+    &:before {
+
+      @include fontawesome-icon();
+      content: $facebook-icon;
+      padding: 8px 10px;
+    }
+  }
+
+  &__twitter {
+    padding-right: $xxxxSmall;
+
+    &:before {
+      @include fontawesome-icon();
+      content: $twitter-icon;
+      padding: 8px;
+    }
+  }
+
+  &__instagram {
+    &:before {
+      @include fontawesome-icon();
+      content: $instagram-icon;
+      padding: 8px;
+    }
+  }
+}
