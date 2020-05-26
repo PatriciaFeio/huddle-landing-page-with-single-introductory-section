@@ -1,17 +1,35 @@
 @use '../helpers/variables'as *;
-@use '../fontawesome-scss/fontawesome.scss'as *;
-@use '../fontawesome-scss/regular.scss'as *;
-@use '../fontawesome-scss/brands.scss'as *;
+@use '../helpers/mixins'as *;
+@use '../components/icons'as *;
 
 .app-footer {
   background-color: $primary-color;
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
+  @include break-media('tablet') {
+    background-color: transparent;
+  }
 
-.attribution a {
-  color: $light-color;
+  &__social-icons {
+    padding-top: 10px;
+
+    @include break-media('tablet') {
+      align-self: flex-end;
+      padding-right: $xxLarge;
+    }
+  }
+
+  &__attribution {
+    font-size: 11px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+
+    & a {
+      color: $light-color;
+    }
+  }
 }

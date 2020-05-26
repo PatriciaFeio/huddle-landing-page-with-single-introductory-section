@@ -1,14 +1,28 @@
 @use '../helpers/variables'as *;
+@use '../helpers/mixins'as *;
 
 .app-header {
-  padding: $xSmall $small 0 $xSmall;
+  padding: $xSmall $small $xLarge $small;
 
   &__content {
     width: 124px;
     height: 24px;
+
+    @include break-media('tablet') {
+      width: 264px;
+      height: 49px;
+    }
   }
 
   &__logo {
     width: 100%;
+  }
+
+  @include break-media('phone') {
+    padding: $xSmall $xxLarge $xxxLarge $xxLarge;
+
+    @include break-media('tablet') {
+      padding: $large $xxLarge $xLarge $xxLarge;
+    }
   }
 }
