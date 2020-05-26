@@ -12,6 +12,9 @@ sans-serif;
 $headings-font: 'Poppins',
 sans-serif;
 $align-center: center;
+$align-left: left;
+$mobile-heading: 24px;
+$desktop-heading: 36px;
 
 //spaces
 $mobile-icon: 10px;
@@ -34,6 +37,6 @@ $instagram-icon: '\f16d';
 $icon-border: 1px solid white;
 
 //breakpoints
-$breakpoints: ('phone': 640px,
-  'tablet': 768px,
+$breakpoints: ('phone': 768px,
+  'tablet': 992px,
   'desktop': 1440px) !default;
