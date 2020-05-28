@@ -8,7 +8,7 @@
     width: 124px;
     height: 24px;
 
-    @include break-media('tablet') {
+    @include break-media('phone') {
       width: 264px;
       height: 49px;
     }

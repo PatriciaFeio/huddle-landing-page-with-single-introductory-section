@@ -39,7 +39,7 @@
   &__content-info {
     background-color: $primary-color;
     height: 100%;
-    padding-top: $xxxSmall;
+    padding-top: $xxSmall;
     text-align: $align-center;
 
     @include break-media('phone') {
@@ -57,11 +57,10 @@
   }
 
   &__content-heading {
-    padding-bottom: $xxxxSmall;
+    padding-bottom: $xxxSmall;
   }
 
   &__content-paragraph {
-    line-height: 1.6;
     padding-bottom: $mobile-icon;
   }
 

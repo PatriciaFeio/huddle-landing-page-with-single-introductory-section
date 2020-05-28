@@ -18,9 +18,7 @@ body {
   @include break-media('tablet') {
     background: url(/src/images/bg-desktop.svg);
     background-color: $primary-color;
-    background-position: center right;
     background-size: cover;
-    background-size: 114%;
     background-repeat: no-repeat;
   }
 }

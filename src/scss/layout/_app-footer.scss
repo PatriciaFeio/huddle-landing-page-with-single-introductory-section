@@ -1,5 +1,6 @@
 @use '../helpers/variables'as *;
 @use '../helpers/mixins'as *;
+@use '../base/typography'as *;
 @use '../components/icons'as *;
 
 .app-footer {
@@ -22,14 +23,9 @@
   }
 
   &__attribution {
-    font-size: 11px;
     text-align: center;
     padding-top: 25px;
     padding-bottom: 5px;
     margin-bottom: 0;
-
-    & a {
-      color: $light-color;
-    }
   }
 }
