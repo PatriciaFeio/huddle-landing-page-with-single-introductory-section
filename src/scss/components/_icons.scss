@@ -3,31 +3,68 @@
 
 .icon {
   &__facebook {
-    padding-right: $xxxxSmall;
+    padding-right: $xxxSmall;
+
+    &:hover:before {
+      color: $hover-color;
+      border-color: $icon-border-color;
+    }
+
+    @include break-media('tablet') {
+      padding-right: $desktop-icon;
+    }
 
     &:before {
-
       @include fontawesome-icon();
       content: $facebook-icon;
-      padding: 8px 10px;
+      padding: 8px $mobile-icon;
+
+      @include break-media('tablet') {
+        border: $icon-border-dktp;
+        padding: $desktop-icon 14px;
+      }
     }
   }
 
   &__twitter {
-    padding-right: $xxxxSmall;
+    padding-right: $xxxSmall;
+
+    &:hover:before {
+      color: $hover-color;
+      border-color: $icon-border-color;
+    }
+
+    @include break-media('tablet') {
+      padding-right: $desktop-icon;
+    }
 
     &:before {
       @include fontawesome-icon();
       content: $twitter-icon;
       padding: 8px;
+
+      @include break-media('tablet') {
+        border: $icon-border-dktp;
+        padding: $desktop-icon;
+      }
     }
   }
 
   &__instagram {
+    &:hover:before {
+      color: $hover-color;
+      border-color: $icon-border-color;
+    }
+
     &:before {
       @include fontawesome-icon();
       content: $instagram-icon;
       padding: 8px;
+
+      @include break-media('tablet') {
+        border: $icon-border-dktp;
+        padding: $desktop-icon;
+      }
     }
   }
 }
