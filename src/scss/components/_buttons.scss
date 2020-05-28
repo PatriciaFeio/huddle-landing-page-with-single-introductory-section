@@ -11,7 +11,7 @@
 
   &:hover {
     background-image: linear-gradient($hover-color, $primary-color);
-    box-shadow: 0 0px 9px 1px $light-color;
+    //box-shadow: 0 0px 9px 1px $light-color;
   }
 
   @include break-media('tablet') {
