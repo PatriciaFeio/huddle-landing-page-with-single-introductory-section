@@ -3,14 +3,14 @@
 
 @mixin fontawesome-icon {
   font-family: "Font Awesome 5 Brands";
-  font-size: 14px;
+  font-size: $icon-font;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: white;
+  color: $light-color;
   font-weight: 400;
   border-radius: 50%;
-  border: 1px solid white;
+  border: $icon-border;
 }
 
 //https://css-tricks.com/snippets/sass/mixin-manage-breakpoints/
