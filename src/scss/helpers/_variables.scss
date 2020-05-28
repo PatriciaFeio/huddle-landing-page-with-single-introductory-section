@@ -3,7 +3,9 @@
 
 //color
 $primary-color: hsl(257, 40%, 49%);
+$dark-primary: hsl(257, 40%, 30%);
 $footer-color: hsl(228, 45%, 44%);
+$hover-color: hsl(308, 73%, 60%);
 $light-color: #fff;
 
 //fonts
@@ -13,28 +15,37 @@ $headings-font: 'Poppins',
 sans-serif;
 $align-center: center;
 $align-left: left;
-$mobile-heading: 24px;
-$desktop-heading: 36px;
+$footer-font: 0.6875rem;
+$cta-font: 0.8125rem;
+$icon-font: 0.875rem;
+$mobile-heading: 1.5rem;
+$tablet-heading: 1.75rem;
+$desktop-heading: 2.5rem;
+$default-paragraph: 1rem;
+$desktop-paragraph: 1.125rem;
 
 //spaces
-$mobile-icon: 10px;
-$desktop-icon: 15px;
-$xxxxSmall: 7px;
-$xxxSmall: 20px;
-$xxSmall: 30px;
-$xSmall: 35px;
-$small: 40px;
-$medium: 45px;
-$large: 60px;
-$xLarge: 65px;
-$xxLarge: 80px;
-$xxxLarge: 100px;
+$mobile-icon: 0.625rem;
+$desktop-icon: 0.75rem;
+$xxxSmall: 0.4375rem;
+$xxSmall: 1.25rem;
+$xSmall: 2.1875rem;
+$small: 2.5rem;
+$medium: 2.8125rem;
+$large: 3.75rem;
+$xLarge: 4.0625rem;
+$xxLarge: 5rem;
+$xxxLarge: 6.25rem;
 
 //fontawesome icons
 $facebook-icon: '\f39e';
 $twitter-icon: '\f099';
 $instagram-icon: '\f16d';
-$icon-border: 1px solid white;
+$icon-border: 1px solid $light-color;
+$icon-border-dktp: 2px solid $light-color;
+$icon-border-hover: 1px solid $hover-color;
+$icon-border-dktp-hover: 2px solid $hover-color;
+$icon-border-color: $hover-color;
 
 //breakpoints
 $breakpoints: ('phone': 768px,
