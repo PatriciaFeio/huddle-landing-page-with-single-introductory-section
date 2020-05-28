@@ -16,7 +16,49 @@ body {
     font-size: $mobile-heading;
 
     @include break-media('phone') {
+      font-size: $tablet-heading;
+    }
+
+    @include break-media('desktop') {
       font-size: $desktop-heading;
     }
+  }
+
+  &__content-paragraph {
+    font-size: $default-paragraph;
+    line-height: 1.6;
+
+    @include break-media('desktop') {
+      font-size: $desktop-paragraph;
+      line-height: 1.8;
+    }
+  }
+}
+
+.app-footer {
+
+  &__attribution {
+    font-size: $footer-font;
+
+    & a {
+      color: $light-color;
+
+      &:hover {
+        color: $hover-color;
+      }
+    }
+  }
+}
+
+.button-cta {
+  font-size: $cta-font;
+  color: $primary-color;
+
+  &:hover {
+    color: $light-color;
+  }
+
+  @include break-media('tablet') {
+    font-size: $default-paragraph;
   }
 }
