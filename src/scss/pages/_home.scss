@@ -15,6 +15,10 @@ body {
   flex-direction: column;
   justify-content: space-between;
 
+  & a {
+    cursor: pointer;
+  }
+
   @include break-media('tablet') {
     background: url(/src/images/bg-desktop.svg);
     background-color: $primary-color;

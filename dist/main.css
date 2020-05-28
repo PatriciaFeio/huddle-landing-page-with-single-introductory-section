@@ -6186,6 +6186,7 @@ body {
   padding: 13px 78px;
   border-radius: 50px;
   box-shadow: 0 2px 10px 4px #3f2e6b;
+  cursor: pointer;
 }
 .button-cta:hover {
   background-image: linear-gradient(#e34fd0, #674baf);
@@ -6386,6 +6387,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+body a {
+  cursor: pointer;
 }
 @media (min-width: 992px) {
   body {
