@@ -6378,6 +6378,10 @@ body {
   margin-bottom: 0;
 }
 
+.screen-reader-only {
+  display: none;
+}
+
 body {
   background: url(/src/images/bg-mobile.svg);
   background-color: #674baf;
