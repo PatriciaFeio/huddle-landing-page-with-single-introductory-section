@@ -1,6 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap");
 /*!
  * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6135,17 +6134,21 @@ body {
 }
 .app-footer__attribution a {
   color: #fff;
+  transition: all 0.3s linear;
 }
 .app-footer__attribution a:hover {
   color: #e34fd0;
+  transition: all 0.3s linear;
 }
 
 .button-cta {
   font-size: 0.8125rem;
   color: #674baf;
+  transition: all 0.6s linear;
 }
 .button-cta:hover {
   color: #fff;
+  transition: all 0.6s linear;
 }
 @media (min-width: 992px) {
   .button-cta {
@@ -6187,10 +6190,12 @@ body {
   border-radius: 50px;
   box-shadow: 0 2px 10px 4px #3f2e6b;
   cursor: pointer;
+  transition: all 0.3s linear;
 }
 .button-cta:hover {
   background-image: linear-gradient(#e34fd0, #674baf);
   box-shadow: 0 0px 9px 1px #fff;
+  transition: all 0.6s linear;
 }
 @media (min-width: 992px) {
   .button-cta {
@@ -6271,6 +6276,7 @@ body {
 .icon__facebook:hover:before {
   color: #e34fd0;
   border-color: #e34fd0;
+  transition: all 0.6s linear;
 }
 @media (min-width: 992px) {
   .icon__facebook {
@@ -6289,6 +6295,7 @@ body {
   border: 1px solid #fff;
   content: "";
   padding: 8px 0.625rem;
+  transition: all 0.3s linear;
 }
 @media (min-width: 992px) {
   .icon__facebook:before {
@@ -6302,6 +6309,7 @@ body {
 .icon__twitter:hover:before {
   color: #e34fd0;
   border-color: #e34fd0;
+  transition: all 0.6s linear;
 }
 @media (min-width: 992px) {
   .icon__twitter {
@@ -6320,6 +6328,7 @@ body {
   border: 1px solid #fff;
   content: "";
   padding: 8px;
+  transition: all 0.3s linear;
 }
 @media (min-width: 992px) {
   .icon__twitter:before {
@@ -6330,6 +6339,7 @@ body {
 .icon__instagram:hover:before {
   color: #e34fd0;
   border-color: #e34fd0;
+  transition: all 0.6s linear;
 }
 .icon__instagram:before {
   font-family: "Font Awesome 5 Brands";
@@ -6343,6 +6353,7 @@ body {
   border: 1px solid #fff;
   content: "";
   padding: 8px;
+  transition: all 0.3s linear;
 }
 @media (min-width: 992px) {
   .icon__instagram:before {
