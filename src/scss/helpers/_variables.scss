@@ -51,3 +51,7 @@ $icon-border-color: $hover-color;
 $breakpoints: ('phone': 768px,
   'tablet': 992px,
   'desktop': 1440px) !default;
+
+//hover effect
+$transition-hover: all 0.6s linear;
+$transition: all 0.3s linear;

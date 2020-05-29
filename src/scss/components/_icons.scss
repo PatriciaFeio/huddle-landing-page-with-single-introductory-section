@@ -8,6 +8,7 @@
     &:hover:before {
       color: $hover-color;
       border-color: $icon-border-color;
+      transition: $transition-hover;
     }
 
     @include break-media('tablet') {
@@ -18,6 +19,7 @@
       @include fontawesome-icon();
       content: $facebook-icon;
       padding: 8px $mobile-icon;
+      transition: $transition;
 
       @include break-media('tablet') {
         border: $icon-border-dktp;
@@ -32,6 +34,7 @@
     &:hover:before {
       color: $hover-color;
       border-color: $icon-border-color;
+      transition: $transition-hover;
     }
 
     @include break-media('tablet') {
@@ -42,6 +45,7 @@
       @include fontawesome-icon();
       content: $twitter-icon;
       padding: 8px;
+      transition: $transition;
 
       @include break-media('tablet') {
         border: $icon-border-dktp;
@@ -54,12 +58,14 @@
     &:hover:before {
       color: $hover-color;
       border-color: $icon-border-color;
+      transition: $transition-hover;
     }
 
     &:before {
       @include fontawesome-icon();
       content: $instagram-icon;
       padding: 8px;
+      transition: $transition;
 
       @include break-media('tablet') {
         border: $icon-border-dktp;

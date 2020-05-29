@@ -1,7 +1,6 @@
 @use '../helpers/variables'as *;
 @use '../helpers/mixins'as *;
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap');
 
 body {
   font-family: $font-stack;
@@ -42,9 +41,11 @@ body {
 
     & a {
       color: $light-color;
+      transition: $transition;
 
       &:hover {
         color: $hover-color;
+        transition: $transition;
       }
     }
   }
@@ -53,9 +54,11 @@ body {
 .button-cta {
   font-size: $cta-font;
   color: $primary-color;
+  transition: $transition-hover;
 
   &:hover {
     color: $light-color;
+    transition: $transition-hover;
   }
 
   @include break-media('tablet') {

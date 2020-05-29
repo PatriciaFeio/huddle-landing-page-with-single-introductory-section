@@ -9,10 +9,12 @@
   border-radius: 50px;
   box-shadow: 0 2px 10px 4px $dark-primary;
   cursor: pointer;
+  transition: $transition;
 
   &:hover {
     background-image: linear-gradient($hover-color, $primary-color);
     box-shadow: 0 0px 9px 1px $light-color;
+    transition: $transition-hover;
   }
 
   @include break-media('tablet') {
