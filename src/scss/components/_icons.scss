@@ -2,75 +2,25 @@
 @use '../helpers/mixins'as *;
 
 .icon {
-  &__facebook {
-    padding-right: $xxxSmall;
+  width: 30px;
+  margin-right: $xxxSmall;
 
-    &:hover:before {
-      color: $hover-color;
-      border-color: $icon-border-color;
-      transition: $transition-hover;
-    }
-
-    @include break-media('tablet') {
-      padding-right: $desktop-icon;
-    }
-
-    &:before {
-      @include fontawesome-icon();
-      content: $facebook-icon;
-      padding: 8px $mobile-icon;
-      transition: $transition;
-
-      @include break-media('tablet') {
-        border: $icon-border-dktp;
-        padding: $desktop-icon 14px;
-      }
-    }
+  @include break-media('tablet') {
+    margin-right: $desktop-icon;
+    width: 45px;
   }
 
-  &__twitter {
-    padding-right: $xxxSmall;
-
-    &:hover:before {
-      color: $hover-color;
-      border-color: $icon-border-color;
-      transition: $transition-hover;
-    }
-
-    @include break-media('tablet') {
-      padding-right: $desktop-icon;
-    }
-
-    &:before {
-      @include fontawesome-icon();
-      content: $twitter-icon;
-      padding: 8px;
-      transition: $transition;
-
-      @include break-media('tablet') {
-        border: $icon-border-dktp;
-        padding: $desktop-icon;
-      }
-    }
+  &--margin {
+    margin-right: 0;
   }
 
-  &__instagram {
-    &:hover:before {
-      color: $hover-color;
-      border-color: $icon-border-color;
-      transition: $transition-hover;
-    }
+  &--social {
+    fill: $light-color;
+    transition: $transition-hover;
+  }
 
-    &:before {
-      @include fontawesome-icon();
-      content: $instagram-icon;
-      padding: 8px;
-      transition: $transition;
-
-      @include break-media('tablet') {
-        border: $icon-border-dktp;
-        padding: $desktop-icon;
-      }
-    }
+  &--social:hover {
+    fill: $hover-color;
+    transition: $transition-hover;
   }
 }
