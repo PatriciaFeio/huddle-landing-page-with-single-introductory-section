@@ -1,17 +1,5 @@
-@use '../fontawesome-scss/fontawesome.scss'as *;
 @use 'variables'as *;
 
-@mixin fontawesome-icon {
-  font-family: "Font Awesome 5 Brands";
-  font-size: $icon-font;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: $light-color;
-  font-weight: 400;
-  border-radius: 50%;
-  border: $icon-border;
-}
 
 //https://css-tricks.com/snippets/sass/mixin-manage-breakpoints/
 @mixin break-media($breakpoint) {
