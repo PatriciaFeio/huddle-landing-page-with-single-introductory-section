@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/PatriciaFeio/huddle-landing-page-with-single-introductory-section#readme",
   "dependencies": {
-    "node-sass": "^7.0.0"
+    "node-sass": "^9.0.0"
   }
 }
